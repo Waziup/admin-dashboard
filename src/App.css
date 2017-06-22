@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-intro {
+  font-size: large;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 100%;
+}

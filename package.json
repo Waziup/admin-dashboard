@@ -1,0 +1,39 @@
+{
+  "name": "waziup-dashboard-nextgen",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "react-scripts": "^0.9.5",
+    "redux-logger": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "keycloak-admin-client": "^0.4.0",
+    "keycloak-js": "^2.5.5",
+    "leaflet": "^1.0.3",
+    "material-ui": "^0.18.0",
+    "moment-timezone": "^0.5.13",
+    "prop-types": "^15.5.8",
+    "query-string": "^4.3.4",
+    "react": "^15.5.0",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.0",
+    "react-grid-system": "latest",
+    "react-leaflet": "latest",
+    "react-redux": "^5.0.3",
+    "react-router": "^3.0.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "recharts": "^1.0.0-alpha.1",
+    "redux": "^3.5.2",
+    "redux-form": "^6.7.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  },
+  "proxy": "http://localhost:8000"
+}
